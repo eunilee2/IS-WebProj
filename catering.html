@@ -6,21 +6,33 @@
     <meta name="keywords" content="Happy Day Dessert Factory, Pittburgh">
     <meta name="description" content="Happy Day Dessert Factory Redesigned Website">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
     <title>Happy Day Dessert Factory</title>
 
     <script src="js/anime-master/lib/anime.min.js"></script>
     <script src="js/velocity-master/velocity.min.js"></script>
     <script src="js/velocity-master/velocity.ui.min.js"></script>
+
+    <style>
+        #title{font-family:'Shrikhand';
+                font-size: 48px;}
+        #nav{font-family:'Montserrat';
+             font-size:20px;}
+        .upper-footer{font-family:'Montserrat';
+                      font-size:20px;
+                      font-weight:bold;}
+    </style>
 </head>
 
 <body> 
     <header>
         <img id="banner" src="images/banner.png" alt="blue clouds">
         <img id="logo" src="images/logo.png" alt="smiling ice cream sun">
-        <h1 id="title">Happy Day Dessert Factory</h1>
+        <h1 id="title" class="title">Happy Day Dessert Factory</h1>
     </header>
-    <nav id="nav">
+    <nav id="nav" class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="menu.html">Menu</a>
@@ -39,21 +51,21 @@
         </div>
     </div>
     <footer id="footer">
-        <div class="upper-footer">
+        <div id="upper-footer" class="upper-footer">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="menu.html">Menu</a>
-            <img src="images/logo.png" alt="smiling ice cream sun">
+            <img id="logo-footer" src="images/logo.png" alt="smiling ice cream sun">
             <a href="visit.html">Visit</a>
             <a href="catering.html">Catering</a>
             <a href="news.html">News</a>
         </div>
         <hr>
         <div class="lower-footer">
-            <a href="https://www.instagram.com/happydaydessertfactory/?hl=en"><img src="images/insta.png" alt="instagram logo"></a>
-            <a href="https://www.facebook.com/happydaydessertfactory/photos"><img src="images/facebook.png" alt="facebook logo"></a>
-            <a href="info@happydaydessertfactory.com"><img src="images/mail.png" alr="mail logo"></a>
-            <img src="images/tel.png" alt="phone logo">
+            <a href="https://www.instagram.com/happydaydessertfactory/?hl=en"><img class="insta" src="images/insta.png" alt="instagram logo"></a>
+            <a href="https://www.facebook.com/happydaydessertfactory/photos"><img class="fb" src="images/facebook.png" alt="facebook logo"></a>
+            <a href="info@happydaydessertfactory.com"><img class="mail" src="images/mail.png" alr="mail logo"></a>
+            <img class="tel" src="images/tel.png" alt="phone logo">
         </div>
         &copy; Happy Day Dessert Factory. 2023.
     </footer>
