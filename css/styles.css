@@ -1,5 +1,14 @@
+html, body{
+    margin:0;
+}
 #banner{
-    width:auto;
+    width:100%;
+    height:auto;
+}
+header{
+    background-color:#DAF6FF;
+    margin:0;
+    padding:0;
 }
 #logo{
     position:absolute;
@@ -27,10 +36,20 @@
     display:flex;
     flex-direction:row;
     justify-content:space-around;
+    margin:0;
+    padding:0;
 }
 .nav a{
     margin-top:auto;
     margin-bottom:auto;
+}
+#content{
+    background-color:#DAF6FF;
+    margin:0;
+    padding:0;
+}
+h2{
+    margin:0;
 }
 #upper-footer{
     position:absolute;
