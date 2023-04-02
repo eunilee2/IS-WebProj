@@ -13,13 +13,13 @@ header{
 #logo{
     position:absolute;
     top: 37%;
-    left: 16%;
+    left: 13%;
     transform: translate(-50%, -50%);
     width:15%;
     height:auto;
 }
 #title{
-    font-size:64px;
+    font-size:52pt;
     /* 4.25vw */
     font-family:'Shrikhand';
     color:#05070A;
@@ -43,7 +43,7 @@ nav{
     justify-content:space-around;
 }
 nav a{
-    font-size:20px;
+    font-size:16pt;
     /* 1.33vw */
     font-family:'Montserrat';
     font-weight:900;
@@ -68,7 +68,7 @@ nav a:visited{
 }
 h2{
     text-align:center;
-    font-size:48px;
+    font-size:36pt;
     /* 2.5vw */
     font-family:'Shrikhand';
     color:#05070A;
@@ -89,8 +89,15 @@ footer{
     display:flex;
     align-items:center;
     font-family:'Montserrat';
-    font-size:20px;
+    font-size:14pt;
     font-weight:bold;
+    color:#05070A;
+}
+#upper-footer>a:link{
+    text-decoration:none;
+}
+#upper-footer>a:visited{
+    text-decoration:none;
 }
 #logo-footer{
     width:20%;
@@ -112,10 +119,27 @@ hr{
     height:auto;
 }
 footer>p{
+    font-family:'Montserrat';
     text-align:center;
 }
-
+cite{
+    font-style:italic;
+    font-size:10pt;
+}
 /* Index */
+
+
+/* Menu */
+#menu-template{
+    display:flex;
+    justify-content: space-between;
+}
+#item-template{
+    width:25%;
+    background-color:#AEEBFF;
+    border:black solid 2pt;
+    border-radius:15px;
+}
 
 /* Catering */
 .catering-span{
@@ -124,7 +148,7 @@ footer>p{
 #catering-text{
     width:50%;
     background-color:#DAF6FF;
-    font-size:18px;
+    font-size:14pt;
     font-family:'Montserrat';
     line-height:1.75;
 }
@@ -147,3 +171,4 @@ footer>p{
     object-fit:cover;
     width:50%;
 }
+
