@@ -75,6 +75,25 @@ h2{
     padding:0;
     margin:0;
 }
+h3{
+    text-align:center;
+    font-size:26pt;
+    /* 2.5vw */
+    font-family:'Shrikhand';
+    font-weight:bold;
+    color:#05070A;
+    padding:0;
+    margin:0;
+}
+h4{
+    font-size:16pt;
+    /* 2.5vw */
+    font-family:'Montserrat';
+    font-weight:bold;
+    color:#05070A;
+    padding:0;
+    margin:0;
+}
 footer{
     height:min-content;
 }
@@ -176,8 +195,56 @@ iframe{
     width:100%;
     height:90vh;
 }
-
-
+#articles{
+    margin:auto auto;
+    padding:20px;
+    margin-top:20px;
+}
+.article-flex{
+    display:flex;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.article-img{
+    width:15%;
+    object-fit:cover;
+    border-radius:20px;
+}
+.paper{
+    display:flex;
+}
+.paper>img{
+    width:5%;
+    height:auto;
+    margin:10px;
+    border-radius:10px;
+}
+.paper>p{
+    font-size:12pt;
+    font-family:'Montserrat';
+    color:#05070A;
+    padding:0;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.article-text{
+    margin-left:20px;
+}
+.article-text a:link{
+    color:#05070A;
+    text-decoration:none;
+}
+.article-text a:visited{
+    color:#05070A;
+    text-decoration:none;
+}
+.article-text>a>p{
+    font-size:12pt;
+    font-family:'Montserrat';
+    color:#05070A;
+    padding:0;
+    margin-top:15px;
+}
 
 /* Something else */
 #slideshow{
