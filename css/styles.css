@@ -171,4 +171,9 @@ cite{
     object-fit:cover;
     width:50%;
 }
+/* News */
 
+#content>#slideshow>iframe{
+    width:100%;
+    height:100%;
+}
