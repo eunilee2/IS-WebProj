@@ -19,7 +19,8 @@ header{
     height:auto;
 }
 #title{
-    font-size:4.25vw;
+    font-size:64px;
+    /* 4.25vw */
     font-family:'Shrikhand';
     color:#05070A;
     white-space:nowrap;
@@ -42,11 +43,16 @@ nav{
     justify-content:space-around;
 }
 nav a{
-    font-size:1.33vw;
+    font-size:20px;
+    /* 1.33vw */
     font-family:'Montserrat';
     font-weight:900;
     color:#05070A;
     margin:10px 35px 10px 35px;
+}
+nav a:link{
+    color:#05070A;
+    text-decoration:none;
 }
 nav a:visited{
     color:#05070A;
@@ -58,12 +64,23 @@ nav a:visited{
 #content{
     width:70%;
     margin:auto auto;
+    padding:20px;
 }
 h2{
+    text-align:center;
+    font-size:48px;
+    /* 2.5vw */
+    font-family:'Shrikhand';
+    color:#05070A;
+    padding:0;
     margin:0;
+}
+footer{
+    height:min-content;
 }
 #upper-footer{
     width:60%;
+    height:min-content;
     margin:auto auto;
     display:flex;
     justify-content:space-evenly;
@@ -85,6 +102,7 @@ hr{
 }
 #lower-footer{
     width:25%;
+    height:min-content;
     margin:auto auto;
     display:flex;
     justify-content:space-evenly;
@@ -95,4 +113,37 @@ hr{
 }
 footer>p{
     text-align:center;
+}
+
+/* Index */
+
+/* Catering */
+.catering-span{
+    display:inline-flex;
+}
+#catering-text{
+    width:50%;
+    background-color:#DAF6FF;
+    font-size:18px;
+    font-family:'Montserrat';
+    line-height:1.75;
+}
+.catering-visit>a:link{
+    color:#05070A;
+    text-decoration:none;
+}
+.catering-visit>a:visited{
+    color:#05070A;
+    text-decoration:none;
+}
+.catering-left{
+    margin-right:25px;
+}
+.catering-right{
+    margin-top:20px;
+    margin-left:25px;
+}
+.catering-img{
+    object-fit:cover;
+    width:50%;
 }
