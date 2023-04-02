@@ -6,17 +6,33 @@
     <meta name="keywords" content="Happy Day Dessert Factory, Pittburgh">
     <meta name="description" content="Happy Day Dessert Factory Redesigned Website">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
     <title>Happy Day Dessert Factory</title>
+
+    <script src="js/anime-master/lib/anime.min.js"></script>
+    <script src="js/velocity-master/velocity.min.js"></script>
+    <script src="js/velocity-master/velocity.ui.min.js"></script>
+
+    <style>
+        #title{font-family:'Shrikhand';}
+        #nav{font-family:'Montserrat';
+             font-size:20px;}
+        .upper-footer{font-family:'Montserrat';
+                      font-size:20px;
+                      font-weight:bold;}
+    </style>
 </head>
 
 <body> 
+    
     <header>
-        <img class="banner" src="images/banner.png" alt="blue clouds">
-        <img class="logo" src="images/logo.png" alt="smiling ice cream sun">
-        <h1 class="title">Happy Day Dessert Factory</h1>
+        <img id="banner" src="images/banner.png" alt="blue clouds">
+        <a href="index.html"><img id="logo" src="images/logo.png" alt="smiling ice cream sun"></a>
+        <h1 id="title">Happy Day Dessert Factory</h1>
     </header>
-    <nav class="nav">
+    <nav id="nav" class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="menu.html">Menu</a>
@@ -25,29 +41,33 @@
         <a href="news.html">News</a>
     </nav>
     <div id="content">
-        <h2>About</h2>
-        <img src="images/ID-photo.jpg" alt="Photo of Eunice" 
-            width="300">
-        <div id="bio">
-            <p>Eunice is a freshman Information Systems student at Carnegie Mellon
-                University. She enjoys UX/UI design, statistics, and research.
-                When she's not buried in work, Eunice enjoys to read New York Times 
-                articles and participate in Debate Club and Fencing Club. </p>
-            <h3>Courses Taken</h3>
-                <ul>
-                    <li>Reasoning with Data</li>
-                    <li>Fundamentals of Programming</li>
-                    <li>Putnam Seminar</li>
-                    <li>Information Systems First Year Colloquium</li>
-                    <li>First Year Writing</li>
-                </ul>
-            <a href="EUNICE-LEE-Resume.pdf" target="_blank">
-                <strong>My Resume</strong></a>
-        </div><!--Close Bio-->
-    </div><!--Close Content-->
-    <footer>
+        <h2>Catering</h2>
+        <img class="catering-img"src="images/catering.jpg" alt="neon signs of logo and Happy Day Dessert Factory">
+        <div class="catering-text">
+            <p>The majority of our most popular menu items are available for catering, including our cakes and cookies.<br>
+                Our venue is also available to be rented to host private functions during both regular and nonregular business hours.<br> 
+                Or, if you prefer, our professional staff can come to your celebration, deliver, and even serve our happiness directly to you!<br> 
+                We have a variety of catering and party options to suit your needs so feel free to contact us for further information.</p>
+        </div>
+    </div>
+    <footer id="footer">
+        <div id="upper-footer" class="upper-footer">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <img id="logo-footer" src="images/logo.png" alt="smiling ice cream sun">
+            <a href="visit.html">Visit</a>
+            <a href="catering.html">Catering</a>
+            <a href="news.html">News</a>
+        </div>
         <hr>
-        &copy; Eunice Lee<br>2023
+        <div class="lower-footer">
+            <a href="https://www.instagram.com/happydaydessertfactory/?hl=en"><img class="insta" src="images/insta.png" alt="instagram logo"></a>
+            <a href="https://www.facebook.com/happydaydessertfactory/photos"><img class="fb" src="images/facebook.png" alt="facebook logo"></a>
+            <a href="info@happydaydessertfactory.com"><img class="mail" src="images/mail.png" alr="mail logo"></a>
+            <img class="tel" src="images/tel.png" alt="phone logo">
+        </div>
+        &copy; Happy Day Dessert Factory. 2023.
     </footer>
 </body>
 

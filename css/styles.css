@@ -12,8 +12,9 @@ header{
 }
 #logo{
     position:absolute;
-    top:175px;
-    left:25px;
+    top: 37%;
+    left: 16%;
+    transform: translate(-50%, -50%);
     width:15%;
     height:auto;
 }
@@ -21,10 +22,13 @@ header{
     width:15%;
     height:auto;
 }
-.title{
+#title{
+    font-size:4vw;
+    white-space:nowrap;
     position:absolute;
-    top:275px;
-    left:325px;
+    top: 36%;
+    left: 53%;
+    transform: translate(-50%, -50%);
 }
 .nav{
     position:absolute;
