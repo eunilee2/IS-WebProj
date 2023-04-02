@@ -182,23 +182,15 @@ cite{
     width:100%;
     height:90vh;
     overflow:hidden;
-    transition:1s;
+}
+.slide{
+    position: relative;
+    overflow: hidden;
 }
 .slide>.iframe{
     width:100%;
     height:90vh;
     display:flex;
-}
-/* .slide{
-    width:20%;
-    transition:2s;
-} */
-
-.slide{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height:90vh;
 }
 /* .iframe{
     position: absolute;
@@ -246,3 +238,8 @@ cite{
 #radio4:checked ~.first{
     margin-left:-60%;
 }
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
