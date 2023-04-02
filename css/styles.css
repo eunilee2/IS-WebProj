@@ -89,6 +89,15 @@ h4{
     font-size:16pt;
     /* 2.5vw */
     font-family:'Montserrat';
+    font-weight:900;
+    color:#05070A;
+    padding:0;
+    margin:0;
+}
+h5{
+    font-size:16pt;
+    /* 2.5vw */
+    font-family:'Montserrat';
     font-weight:bold;
     color:#05070A;
     padding:0;
@@ -152,14 +161,31 @@ cite{
 #menu-template{
     display:flex;
     justify-content: space-between;
+    margin-top:40px;
+    margin-bottom:40px;
 }
-#item-template{
+.menu-cat{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#item{
     width:25%;
     background-color:#AEEBFF;
-    border:black solid 2pt;
+    /* border:black solid 2pt; */
     border-radius:15px;
 }
-
+#item img{
+    max-width:95%;
+    display:block;
+    margin: 0 auto;
+    padding-bottom:20px;
+}
+#item h4{
+    width:80%;
+    text-align:center;
+    margin:auto auto;
+    margin-bottom:20px;
+}
 /* Catering */
 .catering-span{
     display:inline-flex;
