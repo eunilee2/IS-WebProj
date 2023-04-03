@@ -5,7 +5,7 @@ const scrolling = (element, container, direction) => {
     the page will be offset -200px above the element that is 
     being scrolled into view, otherwise the value will be 200px, which 
     offsets the page 200px below the element scrolled into view */
-    direction === 'up' ? offsetDistance = -000;
+    direction === 'up' ? offsetDistance = -200:200
     Velocity(element, 'scroll', {
       container: container, 
       duration: 500, 
