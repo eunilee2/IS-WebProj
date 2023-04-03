@@ -322,9 +322,17 @@ iframe{
 
 /* Visit */
 .hours-locate{
-    display:flex;
-    justify-content: space-around;
     margin-bottom:50px;
+}
+table{
+    margin:auto auto;
+    width:80%;
+}
+td{
+    margin:0 auto;
+}
+.table-space>th{
+    padding-top:50px;
 }
 .visit-details{
     text-align:center;
@@ -347,6 +355,56 @@ iframe{
 .contact a:visited{
     color:#05070A;
     text-decoration:none;
+}
+form{
+    background-color:white;
+    margin-top:20px;
+    margin-bottom:50px;
+    width:60%;
+    margin: auto auto;
+}
+form>h3{
+    margin-top:40px;
+}
+.row1{
+    display:flex;
+    justify-content: space-around;
+    margin-left:75px;
+    margin-right:75px;
+    margin-bottom:25px;
+}
+.row1>input{
+    width:40%;
+    height:auto;
+}
+input{
+    font-size:14pt;
+    font-family:'Montserrat';
+    color:#05070A;
+    line-height:1.75;
+}
+.row2{
+    width:75%;
+    height:auto;
+    margin:25px 110px 25px 110px;
+}
+.row3{
+    width:75%;
+    height:auto;
+    margin:25px 110px 25px 110px;
+}   
+.row4{
+    margin-left:110px;
+}
+form>label{
+    font-size:14pt;
+    font-family:'Montserrat';
+    color:#05070A;
+    line-height:1.75;
+}
+.row5{
+    margin-left:110px;
+    width:10%;
 }
 /* Something else */
 #slideshow{
