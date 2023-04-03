@@ -154,8 +154,38 @@ cite{
     font-style:italic;
     font-size:10pt;
 }
-/* Index */
+/* Home */
 
+
+
+/* About Us */
+.about-us img{
+    width:90%;
+    display:block;
+    margin: 0 auto;
+    border-radius:20px;
+}
+
+.about-us p{
+    width:85%;
+    margin:auto auto;
+    margin-top:50px;
+    font-size:14pt;
+    font-family:'Montserrat';
+    color:#05070A;
+    line-height:1.75;
+}
+.about-us h3{
+    margin-top:75px;
+}
+.newscast p{
+    text-align:center;
+    margin-top:50px;
+    font-size:18pt;
+    font-family:'Montserrat';
+    color:#05070A;
+    font-style:italic;
+}
 
 /* Menu */
 #menu-template{
