@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <title>Happy Day Dessert Factory</title>
 
@@ -15,6 +16,8 @@
     <script src="js/anime-master/lib/anime.min.js"></script>
     <script src="js/velocity-master/velocity.min.js"></script>
     <script src="js/velocity-master/velocity.ui.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
 
 </head>
 
@@ -36,13 +39,70 @@
     </div>
     <div id="container">
         <div id="content">
-            <h2>Catering</h2>
-            <img class="catering-img"src="images/catering.jpg" alt="neon signs of logo and Happy Day Dessert Factory">
-            <div class="catering-text">
-                <p>The majority of our most popular menu items are available for catering, including our cakes and cookies.<br>
-                    Our venue is also available to be rented to host private functions during both regular and nonregular business hours.<br> 
-                    Or, if you prefer, our professional staff can come to your celebration, deliver, and even serve our happiness directly to you!<br> 
-                    We have a variety of catering and party options to suit your needs so feel free to contact us for further information.</p>
+            <br>
+            <div class="slide" 
+                data-flickity='{"wrapAround": true, "autoPlay": 1500}'>
+                    <div class="slide-cell">
+                        <img src="images/slideshow1.jpg" alt="Happy Days Dessert Factory Gift Card">
+                    </div>
+                    <div class="slide-cell">
+                        <img src="images/slideshow2.jpg" alt="Two Female Staff posing">
+                    </div>
+                    <div class="slide-cell">
+                        <img src="images/slideshow3.jpg" alt="Christmas gifts with Happy Days Dessert Factory">
+                    </div>
+                    <div class="slide-cell">
+                        <img src="images/slideshow4.jpg" alt="Happy Days Dessert Factory Gift Bag">
+                    </div>
+            </div>
+            <h3>About Us</h3>
+            <div class="home-text">
+                <p>Happy Day Dessert Factory is located on the North Side of Pittsburgh. Our menu includes:</p>
+                <ul>
+                    <li><p>50+ flavors of Premium Homemade Hard Ice Cream</p></li>
+                    <li><p>13 flavors of Water Ice</p></li>
+                    <li><p>Frozen Soft Custard</p></li>
+                    <li><p>Frozen Yogurt</p></li>
+                    <li><p>Almond Milk Soft Serve </p></li>
+                </ul>
+                <p>Obviously we have your classic favorites of Vanilla, Chocolate, Strawberry, etc... 
+                    every day, but check out our menu for some of our lesser known flavors that are 
+                    sure to become your new favorite.</p>
+            </div>
+            <br>
+            <h3>Smiles Made Fresh Daily!</h3>
+            <div class="newscast">
+                <p>See Us in the News!</p>
+                <div class="carousel" 
+                data-flickity='{"wrapAround": true, "groupCells": true, "cellAlign": true, "autoPlay": 1500, "pageDots": false }'>
+                    <div class="carousel-cell">
+                        <img src="images/pghpost.jpg" alt="green Pittsburgh Post logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/pittsburghcourier.png" alt="Pittsburgh Courier logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/nextpittsburgh.png" alt="blue Next Pittsburgh logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/duqdukes.png" alt="red Duquesne Duke logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/kidsburgh.png" alt="purple Kidsburgh logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/pghmagazine.png" alt="yellow pittsburgh magazine logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/npr.svg" alt="npr logo">
+                    </div>
+                </div>
+            </div>
+            <div class="glance">
+                <img src="images/choco-ic.jpg" alt="chocolate ice cream">
+                <img src="images/blue-rasp.jpg" alt="blue raspberry water ice">
+                <img src="images/specialty.jpg" alt="speciality shake">
+                <a class="home-menu" href="menu.html"><p>Whole Menu</p></a>
             </div>
         </div>
     </div>
