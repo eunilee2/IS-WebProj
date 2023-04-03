@@ -187,6 +187,22 @@ cite{
     font-style:italic;
 }
 
+.carousel{
+    width:70%;
+    margin:auto auto;
+    height:auto;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+.carousel-cell {
+    width: 20%;
+    height:auto;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+
 /* Menu */
 #menu-template{
     display:flex;
@@ -369,7 +385,3 @@ iframe{
     margin-left:-60%;
 }
 
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }

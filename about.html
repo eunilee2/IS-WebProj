@@ -8,8 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <title>Happy Day Dessert Factory</title>
 
@@ -17,8 +16,8 @@
     <script src="js/anime-master/lib/anime.min.js"></script>
     <script src="js/velocity-master/velocity.min.js"></script>
     <script src="js/velocity-master/velocity.ui.min.js"></script>
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </head>
 
@@ -80,19 +79,29 @@
             <h3>Smiles Made Fresh Daily!</h3>
             <div class="newscast">
                 <p>See Us in the News!</p>
-                <div class="owl-carousel owl-theme">
-                    <div class="item"><h4>1</h4></div>
-                    <div class="item"><h4>2</h4></div>
-                    <div class="item"><h4>3</h4></div>
-                    <div class="item"><h4>4</h4></div>
-                    <div class="item"><h4>5</h4></div>
-                    <div class="item"><h4>6</h4></div>
-                    <div class="item"><h4>7</h4></div>
-                    <div class="item"><h4>8</h4></div>
-                    <div class="item"><h4>9</h4></div>
-                    <div class="item"><h4>10</h4></div>
-                    <div class="item"><h4>11</h4></div>
-                    <div class="item"><h4>12</h4></div>
+                <div class="carousel" 
+                data-flickity='{"wrapAround": true, "groupCells": true, "cellAlign": true, "autoPlay": 1500, "pageDots": false }'>
+                    <div class="carousel-cell">
+                        <img src="images/pghpost.jpg" alt="green Pittsburgh Post logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/pittsburghcourier.png" alt="Pittsburgh Courier logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/nextpittsburgh.png" alt="blue Next Pittsburgh logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/duqdukes.png" alt="red Duquesne Duke logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/kidsburgh.png" alt="purple Kidsburgh logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/pghmagazine.png" alt="yellow pittsburgh magazine logo">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="images/npr.svg" alt="npr logo">
+                    </div>
                 </div>
             </div>
         </div>
