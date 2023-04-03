@@ -262,6 +262,7 @@ cite{
     object-fit:cover;
     width:50%;
 }
+
 /* News */
 iframe{
     width:100%;
@@ -318,6 +319,35 @@ iframe{
     margin-top:15px;
 }
 
+
+/* Visit */
+.hours-locate{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:50px;
+}
+.visit-details{
+    text-align:center;
+    font-size:14pt;
+    font-family:'Montserrat';
+    font-weight:600;
+    color:#05070A;
+    line-height:1.75;
+}
+.locate{
+    width:80%;
+    display:block;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+.contact a:link{
+    color:#05070A;
+    text-decoration:none;
+}
+.contact a:visited{
+    color:#05070A;
+    text-decoration:none;
+}
 /* Something else */
 #slideshow{
     width:100%;
