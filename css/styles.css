@@ -55,7 +55,7 @@ nav a:link{
     text-decoration:none;
 }
 nav a:visited{
-    color:#05070A;
+    color:violet;
     text-decoration:none;
 }
 #container{
@@ -197,7 +197,7 @@ cite{
 }
 .glance a:visited{
     text-decoration:none;
-    color:#05070A;
+    color:violet;
 }
 /* About Us */
 .about-us img{
@@ -327,7 +327,7 @@ cite{
     text-decoration:none;
 }
 .catering-visit>a:visited{
-    color:#05070A;
+    color:violet;
     text-decoration:none;
 }
 .catering-left{
@@ -387,7 +387,7 @@ iframe{
     text-decoration:none;
 }
 .article-text a:visited{
-    color:#05070A;
+    color:violet;
     text-decoration:none;
 }
 .article-text>a>p{
@@ -432,7 +432,7 @@ td{
     text-decoration:none;
 }
 .contact a:visited{
-    color:#05070A;
+    color:violet;
     text-decoration:none;
 }
 form{
