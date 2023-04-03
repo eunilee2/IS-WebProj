@@ -500,9 +500,11 @@ form>label{
   position: relative;
   padding: 0.5em;
   font-family:'Montserrat';
+  font-weight:900;
   font-size: 20pt;
   transform: scale(1.1);
   color:#FFDA57;
+  border:2px #FFDA57 solid;
   text-align: center;
   transition: transform 0.5s;
 }
@@ -515,10 +517,6 @@ form>label{
   height: 100%;
   top: 0.3em;
   left: 0;
-  border:2px #FFDA57 solid;
-  transition: border-width 0.7,
-              border-color 0.5s;
-          
 }
 
 .scroll-link:hover,
